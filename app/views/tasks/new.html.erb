@@ -1,0 +1,10 @@
+
+<div class = "container">
+<h1> Adding New restaurent</h1>
+<%= simple_form_for @task do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :completed %>
+  <%= f.button :submit, {class: "btn btn-primary"}%>
+<% end %>
+</div>
